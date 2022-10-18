@@ -10,7 +10,9 @@ breathesFire() {
   returns `${this.name} breathes fire everywhere! Burn!!!.`
 }
 
-static cd
+static getDragons(...dragons) {
+  return dragons.map(dragons => `${this.name}`)
+}
 
 }
 
