@@ -11,14 +11,14 @@ breathesFire() {
 }
 
 static getDragons(...dragons) {
-  return dragons.map(dragons => `${this.name}`)
+  return dragons.map(dragon => dragon.name)
 }
 
 }
 
-const puff = new Dragon("Puff", "green");
-console.log(puff);
-console.log(puff.breathesFire());
+// const puff = new Dragon("Puff", "green");
+// console.log(puff);
+// console.log(puff.breathesFire());
 
 // const toothless = new Dragon("Toothless", "black");
 // console.log(toothless);
